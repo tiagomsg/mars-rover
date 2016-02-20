@@ -78,7 +78,7 @@ Expected result:
 
 There is a distribution zip file in the project root which contains a runnable console application. It also contains the java documentation and this readme file.
 
-- Unzip marsrover-1.0-SNAPSHOT.zip
+- Unzip marsrover-1.0.zip
 - Ensure Java 8 is set
 - Run from the root folder:
 
