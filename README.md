@@ -52,10 +52,13 @@ The application of Design Patterns enabled a lot of decoupling which facilitated
 Run the following command from the project root folder to build the project: 
 >gradle clean build
 
+Generate documentation:
+>gradle javadoc
+
 ##Run
 
 The following command will run the default problem and print the result
->gradle run
+>gradle runAppc
 
 Default input:
 ```

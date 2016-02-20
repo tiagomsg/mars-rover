@@ -25,6 +25,15 @@ dependencies {
     testCompile 'org.powermock:powermock-module-junit4:1.6.4'
 }
 
+task runApp(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+
+    main = 'com.moj.codetest.Application'
+
+    // arguments to pass to the application
+    args './src/main/resources/defaultInputInstructions.txt'
+}
+
 distributions {
     main {
         contents {
